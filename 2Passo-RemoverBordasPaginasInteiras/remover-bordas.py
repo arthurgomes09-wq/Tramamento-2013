@@ -13,8 +13,8 @@ OBS4: execute o código, e abra as imagens para conferir se as bordas foram remo
 from PIL import Image
 import os
 
-pasta_imagens = "imagens-convertidas"
-pasta_saida = "sem-bordas-externas"
+pasta_imagens = "inteiras"
+pasta_saida = "inteiras-sem-bordas-externas"
 
 os.makedirs(pasta_saida, exist_ok=True)
 
