@@ -141,4 +141,5 @@ if __name__ == "__main__":
     dividir_imagem_por_faixas(caminho_imagem, pasta_saida, cor_do_padrao)
     
     print("Divisão concluída!")
-    
+     
+mude minimamente este codigo para percorrer de cima a baixo o ultimo pixel da direita procurando por um padrão visual vertical de 9 pixeis de altura da cor rgb 0-255 (35, 31 ,32), seguido de 4 px rgb 0-255(255, 255, 255), seguido de 5px rgb 0-255 (35, 31, 32), seguido de  4 px rgb 0-255(255, 255, 255), seguido de 9 pixeis de altura da cor rgb 0-255 (35, 31 ,32). Quando encontrar esse pa 
